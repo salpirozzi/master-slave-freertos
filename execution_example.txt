@@ -1,0 +1,186 @@
+[09:24:36.687] [DEVICE_B] initialized
+[09:24:36.688] [MAIN] devB task created
+[09:24:36.688] [DEVICE_A] initialized
+[09:24:36.688] [MAIN] devA task created
+[09:24:36.688] [MAIN] starting scheduler
+[09:24:36.688] [DEVICE_B] sleep timer started
+[09:24:42.288] [DEVICE_B] sleep timer expired
+[09:24:42.288] [DEVICE_B] transition SLEEP => ACTIVE
+[09:24:42.289] [DEVICE_A] transition IDLE => PROCESSING
+[09:24:46.765] [DEVICE_B] transition ACTIVE => FAULT
+[09:24:46.766] [DEVICE_A] transition PROCESSING => ERROR
+[09:24:47.889] [DEVICE_A] reset requested
+[09:24:47.889] [DEVICE_A] transition ERROR => IDLE
+[09:24:49.022] [DEVICE_B] reset received
+[09:24:50.150] [DEVICE_B] transition FAULT => SLEEP
+[09:24:51.281] [DEVICE_B] sleep timer started
+[09:24:56.905] [DEVICE_B] sleep timer expired
+[09:24:56.905] [DEVICE_B] transition SLEEP => ACTIVE
+[09:24:56.907] [DEVICE_A] transition IDLE => PROCESSING
+[09:25:01.391] [DEVICE_B] transition ACTIVE => FAULT
+[09:25:01.392] [DEVICE_A] transition PROCESSING => ERROR
+[09:25:02.504] [DEVICE_A] reset requested
+[09:25:02.504] [DEVICE_A] transition ERROR => IDLE
+[09:25:03.617] [DEVICE_B] reset received
+[09:25:04.739] [DEVICE_B] transition FAULT => SLEEP
+[09:25:05.866] [DEVICE_B] sleep timer started
+[09:25:11.459] [DEVICE_B] sleep timer expired
+[09:25:11.459] [DEVICE_B] transition SLEEP => ACTIVE
+[09:25:11.460] [DEVICE_A] transition IDLE => PROCESSING
+[09:25:15.962] [DEVICE_B] transition ACTIVE => FAULT
+[09:25:15.963] [DEVICE_A] transition PROCESSING => ERROR
+[09:25:17.086] [DEVICE_A] reset requested
+[09:25:17.086] [DEVICE_A] transition ERROR => IDLE
+[09:25:18.210] [DEVICE_B] reset received
+[09:25:19.332] [DEVICE_B] transition FAULT => SLEEP
+[09:25:20.461] [DEVICE_B] sleep timer started
+[09:25:26.040] [DEVICE_B] sleep timer expired
+[09:25:26.040] [DEVICE_B] transition SLEEP => ACTIVE
+[09:25:26.041] [DEVICE_A] transition IDLE => PROCESSING
+[09:25:30.514] [DEVICE_B] transition ACTIVE => FAULT
+[09:25:30.515] [DEVICE_A] transition PROCESSING => ERROR
+[09:25:31.636] [DEVICE_A] reset requested
+[09:25:31.636] [DEVICE_A] transition ERROR => IDLE
+[09:25:32.749] [DEVICE_B] reset received
+[09:25:33.862] [DEVICE_B] transition FAULT => SLEEP
+[09:25:34.975] [DEVICE_B] sleep timer started
+[09:25:40.537] [DEVICE_B] sleep timer expired
+[09:25:40.537] [DEVICE_B] transition SLEEP => ACTIVE
+[09:25:40.538] [DEVICE_A] transition IDLE => PROCESSING
+[09:25:44.968] [DEVICE_B] transition ACTIVE => FAULT
+[09:25:44.969] [DEVICE_A] transition PROCESSING => ERROR
+[09:25:46.080] [DEVICE_A] reset requested
+[09:25:46.080] [DEVICE_A] transition ERROR => IDLE
+[09:25:47.195] [DEVICE_B] reset received
+[09:25:48.310] [DEVICE_B] transition FAULT => SLEEP
+[09:25:49.425] [DEVICE_B] sleep timer started
+[09:25:55.006] [DEVICE_B] sleep timer expired
+[09:25:55.006] [DEVICE_B] transition SLEEP => ACTIVE
+[09:25:55.007] [DEVICE_A] transition IDLE => PROCESSING
+[09:25:59.477] [DEVICE_B] transition ACTIVE => FAULT
+[09:25:59.478] [DEVICE_A] transition PROCESSING => ERROR
+[09:26:00.592] [DEVICE_A] reset requested
+[09:26:00.592] [DEVICE_A] transition ERROR => IDLE
+[09:26:01.699] [DEVICE_B] reset received
+[09:26:02.808] [DEVICE_B] transition FAULT => SLEEP
+[09:26:03.923] [DEVICE_B] sleep timer started
+[09:26:09.480] [DEVICE_B] sleep timer expired
+[09:26:09.480] [DEVICE_B] transition SLEEP => ACTIVE
+[09:26:09.481] [DEVICE_A] transition IDLE => PROCESSING
+[09:26:13.923] [DEVICE_B] transition ACTIVE => FAULT
+[09:26:13.924] [DEVICE_A] transition PROCESSING => ERROR
+[09:26:15.038] [DEVICE_A] reset requested
+[09:26:15.038] [DEVICE_A] transition ERROR => IDLE
+[09:26:16.149] [DEVICE_B] reset received
+[09:26:17.262] [DEVICE_B] transition FAULT => SLEEP
+[09:26:18.373] [DEVICE_B] sleep timer started
+[09:26:23.948] [DEVICE_B] sleep timer expired
+[09:26:23.948] [DEVICE_B] transition SLEEP => ACTIVE
+[09:26:23.949] [DEVICE_A] transition IDLE => PROCESSING
+[09:26:28.431] [DEVICE_B] transition ACTIVE => FAULT
+[09:26:28.432] [DEVICE_A] transition PROCESSING => ERROR
+[09:26:29.549] [DEVICE_A] reset requested
+[09:26:29.549] [DEVICE_A] transition ERROR => IDLE
+[09:26:30.661] [DEVICE_B] reset received
+[09:26:31.773] [DEVICE_B] transition FAULT => SLEEP
+[09:26:32.890] [DEVICE_B] sleep timer started
+[09:26:38.459] [DEVICE_B] sleep timer expired
+[09:26:38.459] [DEVICE_B] transition SLEEP => ACTIVE
+[09:26:38.460] [DEVICE_A] transition IDLE => PROCESSING
+[09:26:42.913] [DEVICE_B] transition ACTIVE => FAULT
+[09:26:42.914] [DEVICE_A] transition PROCESSING => ERROR
+[09:26:44.029] [DEVICE_A] reset requested
+[09:26:44.029] [DEVICE_A] transition ERROR => IDLE
+[09:26:45.147] [DEVICE_B] reset received
+[09:26:46.263] [DEVICE_B] transition FAULT => SLEEP
+[09:26:47.380] [DEVICE_B] sleep timer started
+[09:26:52.965] [DEVICE_B] sleep timer expired
+[09:26:52.965] [DEVICE_B] transition SLEEP => ACTIVE
+[09:26:52.966] [DEVICE_A] transition IDLE => PROCESSING
+[09:26:57.418] [DEVICE_B] transition ACTIVE => FAULT
+[09:26:57.419] [DEVICE_A] transition PROCESSING => ERROR
+[09:26:58.539] [DEVICE_A] reset requested
+[09:26:58.539] [DEVICE_A] transition ERROR => IDLE
+[09:26:59.658] [DEVICE_B] reset received
+[09:27:00.773] [DEVICE_B] transition FAULT => SLEEP
+[09:27:01.886] [DEVICE_B] sleep timer started
+[09:27:07.454] [DEVICE_B] sleep timer expired
+[09:27:07.454] [DEVICE_B] transition SLEEP => ACTIVE
+[09:27:07.455] [DEVICE_A] transition IDLE => PROCESSING
+[09:27:11.907] [DEVICE_B] transition ACTIVE => FAULT
+[09:27:11.908] [DEVICE_A] transition PROCESSING => ERROR
+[09:27:13.014] [DEVICE_A] reset requested
+[09:27:13.014] [DEVICE_A] transition ERROR => IDLE
+[09:27:14.124] [DEVICE_B] reset received
+[09:27:15.238] [DEVICE_B] transition FAULT => SLEEP
+[09:27:16.373] [DEVICE_B] sleep timer started
+[09:27:21.933] [DEVICE_B] sleep timer expired
+[09:27:21.933] [DEVICE_B] transition SLEEP => ACTIVE
+[09:27:21.934] [DEVICE_A] transition IDLE => PROCESSING
+[09:27:26.399] [DEVICE_B] transition ACTIVE => FAULT
+[09:27:26.400] [DEVICE_A] transition PROCESSING => ERROR
+[09:27:27.516] [DEVICE_A] reset requested
+[09:27:27.516] [DEVICE_A] transition ERROR => IDLE
+[09:27:28.630] [DEVICE_B] reset received
+[09:27:29.746] [DEVICE_B] transition FAULT => SLEEP
+[09:27:30.866] [DEVICE_B] sleep timer started
+[09:27:36.475] [DEVICE_B] sleep timer expired
+[09:27:36.475] [DEVICE_B] transition SLEEP => ACTIVE
+[09:27:36.476] [DEVICE_A] transition IDLE => PROCESSING
+[09:27:40.985] [DEVICE_B] transition ACTIVE => FAULT
+[09:27:40.986] [DEVICE_A] transition PROCESSING => ERROR
+[09:27:42.120] [DEVICE_A] reset requested
+[09:27:42.120] [DEVICE_A] transition ERROR => IDLE
+[09:27:43.244] [DEVICE_B] reset received
+[09:27:44.370] [DEVICE_B] transition FAULT => SLEEP
+[09:27:45.489] [DEVICE_B] sleep timer started
+[09:27:51.110] [DEVICE_B] sleep timer expired
+[09:27:51.110] [DEVICE_B] transition SLEEP => ACTIVE
+[09:27:51.111] [DEVICE_A] transition IDLE => PROCESSING
+[09:27:55.598] [DEVICE_B] transition ACTIVE => FAULT
+[09:27:55.599] [DEVICE_A] transition PROCESSING => ERROR
+[09:27:56.721] [DEVICE_A] reset requested
+[09:27:56.721] [DEVICE_A] transition ERROR => IDLE
+[09:27:57.856] [DEVICE_B] reset received
+[09:27:58.973] [DEVICE_B] transition FAULT => SLEEP
+[09:28:00.089] [DEVICE_B] sleep timer started
+[09:28:05.661] [DEVICE_B] sleep timer expired
+[09:28:05.661] [DEVICE_B] transition SLEEP => ACTIVE
+[09:28:05.662] [DEVICE_A] transition IDLE => PROCESSING
+[09:28:10.109] [DEVICE_B] transition ACTIVE => FAULT
+[09:28:10.110] [DEVICE_A] transition PROCESSING => ERROR
+[09:28:11.225] [DEVICE_A] reset requested
+[09:28:11.226] [DEVICE_A] transition ERROR => IDLE
+[09:28:12.334] [DEVICE_B] reset received
+[09:28:13.451] [DEVICE_B] transition FAULT => SLEEP
+[09:28:14.565] [DEVICE_B] sleep timer started
+[09:28:20.132] [DEVICE_B] sleep timer expired
+[09:28:20.132] [DEVICE_B] transition SLEEP => ACTIVE
+[09:28:20.133] [DEVICE_A] transition IDLE => PROCESSING
+[09:28:24.575] [DEVICE_B] transition ACTIVE => FAULT
+[09:28:24.576] [DEVICE_A] transition PROCESSING => ERROR
+[09:28:25.689] [DEVICE_A] reset requested
+[09:28:25.689] [DEVICE_A] transition ERROR => IDLE
+[09:28:26.801] [DEVICE_B] reset received
+[09:28:27.917] [DEVICE_B] transition FAULT => SLEEP
+[09:28:29.033] [DEVICE_B] sleep timer started
+[09:28:34.620] [DEVICE_B] sleep timer expired
+[09:28:34.620] [DEVICE_B] transition SLEEP => ACTIVE
+[09:28:34.621] [DEVICE_A] transition IDLE => PROCESSING
+[09:28:39.064] [DEVICE_B] transition ACTIVE => FAULT
+[09:28:39.066] [DEVICE_A] transition PROCESSING => ERROR
+[09:28:40.176] [DEVICE_A] reset requested
+[09:28:40.176] [DEVICE_A] transition ERROR => IDLE
+[09:28:41.295] [DEVICE_B] reset received
+[09:28:42.409] [DEVICE_B] transition FAULT => SLEEP
+[09:28:43.522] [DEVICE_B] sleep timer started
+[09:28:49.103] [DEVICE_B] sleep timer expired
+[09:28:49.103] [DEVICE_B] transition SLEEP => ACTIVE
+[09:28:49.103] [DEVICE_A] transition IDLE => PROCESSING
+[09:28:53.571] [DEVICE_B] transition ACTIVE => FAULT
+[09:28:53.572] [DEVICE_A] transition PROCESSING => ERROR
+[09:28:54.690] [DEVICE_A] reset requested
+[09:28:54.690] [DEVICE_A] transition ERROR => IDLE
+[09:28:55.817] [DEVICE_B] reset received
+[09:28:56.937] [DEVICE_B] transition FAULT => SLEEP
+[09:28:58.049] [DEVICE_B] sleep timer started
